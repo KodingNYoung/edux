@@ -1,0 +1,10 @@
+.btn {
+  @apply  px-10 py-4 m-1 text-white; 
+
+}
+
+.outlined {
+  @apply border;
+  border-radius: 30px;
+  border-color: #daa520;
+}

@@ -1,0 +1,24 @@
+.features {
+  @apply my-32;
+}
+.featuresCard {
+  @apply md:m-10 p-8 rounded-3xl bg-white flex justify-around items-center flex-wrap;
+  box-shadow: 0px 545px 218px rgba(159, 157, 157, 0.01),
+    0px 306px 184px rgba(159, 157, 157, 0.05),
+    0px 136px 136px rgba(159, 157, 157, 0.09),
+    0px 34px 75px rgba(159, 157, 157, 0.1), 0px 0px 0px rgba(159, 157, 157, 0.1);
+}
+.featureItem {
+  @apply w-[230px] text-center text-base font-medium m-5;
+}
+.featureIcon {
+  @apply w-[55px] h-[55px] rounded-full flex justify-center items-center mx-auto mb-2;
+  background: linear-gradient(
+    224.63deg,
+    #daa520 139.59%,
+    rgba(255, 216, 122, 0.91) 275.77%
+  );
+}
+.featureIcon svg {
+  @apply w-[30px] h-[30px];
+}
