@@ -1,0 +1,13 @@
+.partners {
+  @apply text-center;
+}
+.partners h1 {
+  @apply font-bold text-2xl mb-10;
+}
+.partnersGrid {
+  @apply flex justify-center items-center flex-wrap mx-auto;
+  max-width: 650px;
+}
+.partnersGrid img {
+  @apply m-3 mx-4;
+}
